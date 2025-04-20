@@ -38,9 +38,8 @@
             <div class="apartment-card">
                 <img src="images/apartment1.jpg" alt="Modern Apartment">
                 <div class="apartment-info">
-                    <h3>Apartment SOL</h3>
-                    <p>1 Bedroom | 1 Bath | 60 m²</p>
-                    <p class="price">$1,200/month</p>
+                    <h3>Apartment MAR</h3>
+                    <p>1 Bedroom | 1 Bath | 40 m²</p>
                     <button class="view-details">View Details</button>
                 </div>
             </div>
@@ -48,17 +47,15 @@
                 <img src="images/apartment2.jpg" alt="Luxury Apartment">
                 <div class="apartment-info">
                     <h3>Apartment BOR</h3>
-                    <p>1 Bedroom | 1 Bath | 79 m²</p>
-                    <p class="price">$1,500/month</p>
+                    <p>1 Bedroom | 1 Bath | 30 m²</p>
                     <button class="view-details">View Details</button>
                 </div>
             </div>
             <div class="apartment-card">
                 <img src="images/apartment3.jpg" alt="Penthouse">
                 <div class="apartment-info">
-                    <h3>Apartment MAR</h3>
-                    <p>2 Bedrooms | 2 Baths | 111 m²</p>
-                    <p class="price">$2,500/month</p>
+                    <h3>Apartment SOL</h3>
+                    <p>1 Bedroom | 1 Bath | 40 m²</p>
                     <button class="view-details">View Details</button>
                 </div>
             </div>
@@ -77,8 +74,8 @@
                 <h3>Parking</h3>
             </div>
             <div class="amenity">
-                <i class="fas fa-dog"></i>
-                <h3>Pet Friendly</h3>
+                <i class="fas fa-wifi"></i>
+                <h3>Free WiFi</h3>
             </div>
         </div>
     </section>
@@ -169,7 +166,7 @@
                     <i class="fas fa-phone"></i>
                     <div class="contact-details">
                         <h3>Phone</h3>
-                        <p>+386 40 123 456</p>
+                        <p>+386 40 562 882</p>
                     </div>
                 </div>
                 <div class="contact-item">
@@ -190,9 +187,8 @@
                     <i class="fas fa-clock"></i>
                     <div class="contact-details">
                         <h3>Working Hours</h3>
-                        <p>Monday - Friday: 9:00 - 18:00</p>
-                        <p>Saturday: 10:00 - 14:00</p>
-                        <p>Sunday: Closed</p>
+                        <p>Check-in: 16:00 - 20:00</p>
+                        <p>Check-out: 00:00 - 10:00</p>
                     </div>
                 </div>
             </div>
@@ -231,7 +227,6 @@
                 <div class="modal-details">
                     <h4 class="apartment-name"></h4>
                     <p class="apartment-size"></p>
-                    <p class="apartment-price"></p>
                     <div class="apartment-features">
                         <h5>Features</h5>
                         <ul class="features-list">
@@ -242,5 +237,58 @@
             </div>
         </div>
     </div>
+
+    <script>
+        // Apartment data
+        const apartments = [
+            {
+                name: "Apartment MAR",
+                image: "images/apartment1.jpg",
+                size: "40 m²",
+                description: "1 bedroom, 1 living room with kitchen, 1 bathroom with sauna, 1 balcony (10m²)",
+                beds: "1 double bed + 1 sofa (4 beds)",
+                features: [
+                    "Air conditioning + heating",
+                    "Kitchen",
+                    "Balcony",
+                    "TV",
+                    "Free WiFi",
+                    "Sea view",
+                    "Free parking"
+                ]
+            },
+            {
+                name: "Apartment BOR",
+                image: "images/apartment2.jpg",
+                size: "30 m²",
+                description: "1 bedroom, 1 living room with kitchen, 1 bathroom, 1 terrace (20m²)",
+                beds: "1 double bed + 1 sofa (4 beds)",
+                features: [
+                    "Air conditioning + heating",
+                    "Kitchen",
+                    "Balcony",
+                    "TV",
+                    "Free WiFi",
+                    "Sea view",
+                    "Free parking"
+                ]
+            },
+            {
+                name: "Apartment SOL",
+                image: "images/apartment3.jpg",
+                size: "40 m²",
+                description: "1 bedroom, 1 kitchen, 1 living room, 1 dining room, 1 terrace (20m²)",
+                beds: "1 double bed + 1 sofa (4 beds)",
+                features: [
+                    "Air conditioning + heating",
+                    "Kitchen",
+                    "Balcony",
+                    "TV",
+                    "Free WiFi",
+                    "Free parking"
+                ]
+            }
+        ];
+    </script>
 </body>
 </html> 
