@@ -538,6 +538,16 @@ body {
     line-height: 1.6;
 }
 
+.contact-details a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-details a:hover {
+    color: #3498db;
+}
+
 .map-container {
     height: 100%;
     min-height: 400px;
