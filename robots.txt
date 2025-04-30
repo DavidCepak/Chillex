@@ -1,0 +1,26 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://chillex-apartments.com/sitemap.xml
+
+# Disallow admin and private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /includes/
+Disallow: /config/
+
+# Allow all image files
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+
+# Allow CSS and JS files
+Allow: /*.css$
+Allow: /*.js$
+
+# Crawl-delay for all bots
+Crawl-delay: 10 
