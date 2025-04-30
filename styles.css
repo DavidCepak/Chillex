@@ -262,7 +262,8 @@ body {
     }
     
     .hero-content {
-        padding: 1rem;
+        padding: 2rem;
+        text-align: center;
     }
     
     .hero-content h1 {
@@ -736,11 +737,6 @@ footer a:hover {
     .hero-content {
         padding: 2rem;
         text-align: center;
-    }
-    
-    .hero-content h1::after {
-        left: 50%;
-        transform: translateX(-50%);
     }
     
     .cta-button {
